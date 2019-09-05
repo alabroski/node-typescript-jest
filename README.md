@@ -1,0 +1,1 @@
+A simple node typescript app using koa and jest for testing. Additionally provided appropriate .vscode configs for proper jest test debugging.
