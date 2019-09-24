@@ -1,15 +1,10 @@
 module.exports = {
+    "parser": "@typescript-eslint/parser",
     "extends": [
-        "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "prettier/@typescript-eslint",
-        "plugin:prettier/recommended"
+        'plugin:prettier/recommended'
     ],
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-    },
-    "parser": "@typescript-eslint/parser",
     "env": {
         "jest": true
     },
@@ -18,6 +13,7 @@ module.exports = {
         "prettier"
     ],
     "rules": {
+        "@typescript-eslint/explicit-function-return-type": "off",
         "prettier/prettier": ["error", { "singleQuote": true }]
     }
 };

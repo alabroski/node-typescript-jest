@@ -4,6 +4,5 @@ module.exports = {
   ],
   "transform": {
     "^.+\\.tsx?$": "ts-jest"
-  },
-  "testMatch": [ "**/tests/**/*.[jt]s?(x)" ]
+  }
 }

@@ -1,6 +1,6 @@
-import { Context } from "koa";
+import { Context } from 'koa'
 
 export const mainRoute = (ctx: Context) => {
-  ctx.body = "Hello world!"
-  ctx.status = 200;
+  ctx.body = 'Hello world!'
+  ctx.status = 200
 }
